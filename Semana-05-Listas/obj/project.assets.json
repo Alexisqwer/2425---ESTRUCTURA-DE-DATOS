@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Erosck\\Documents\\2425---ESTRUCTURA-DE-DATOS\\Semana-2\\Semana-2.csproj",
-      "projectName": "Semana-2",
-      "projectPath": "C:\\Users\\Erosck\\Documents\\2425---ESTRUCTURA-DE-DATOS\\Semana-2\\Semana-2.csproj",
+      "projectUniqueName": "C:\\Users\\Erosck\\Documents\\2425---ESTRUCTURA-DE-DATOS\\Semana-05-Listas\\Semana-05-Listas.csproj",
+      "projectName": "Semana-05-Listas",
+      "projectPath": "C:\\Users\\Erosck\\Documents\\2425---ESTRUCTURA-DE-DATOS\\Semana-05-Listas\\Semana-05-Listas.csproj",
       "packagesPath": "C:\\Users\\Erosck\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Erosck\\Documents\\2425---ESTRUCTURA-DE-DATOS\\Semana-2\\obj\\",
+      "outputPath": "C:\\Users\\Erosck\\Documents\\2425---ESTRUCTURA-DE-DATOS\\Semana-05-Listas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Erosck\\AppData\\Roaming\\NuGet\\NuGet.Config"
