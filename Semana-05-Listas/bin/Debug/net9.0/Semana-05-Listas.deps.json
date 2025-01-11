@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Semana-05-Listas/1.0.0": {
+        "runtime": {
+          "Semana-05-Listas.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Semana-05-Listas/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

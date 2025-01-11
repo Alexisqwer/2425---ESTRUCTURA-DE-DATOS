@@ -1,0 +1,15 @@
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS\Semana-05-Listas\bin\Debug\net9.0\Semana-05-Listas.exe
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS\Semana-05-Listas\bin\Debug\net9.0\Semana-05-Listas.deps.json
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS\Semana-05-Listas\bin\Debug\net9.0\Semana-05-Listas.runtimeconfig.json
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS\Semana-05-Listas\bin\Debug\net9.0\Semana-05-Listas.dll
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS\Semana-05-Listas\bin\Debug\net9.0\Semana-05-Listas.pdb
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS\Semana-05-Listas\obj\Debug\net9.0\Semana-05-Listas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS\Semana-05-Listas\obj\Debug\net9.0\Semana-05-Listas.AssemblyInfoInputs.cache
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS\Semana-05-Listas\obj\Debug\net9.0\Semana-05-Listas.AssemblyInfo.cs
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS\Semana-05-Listas\obj\Debug\net9.0\Semana-05-Listas.csproj.CoreCompileInputs.cache
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS\Semana-05-Listas\obj\Debug\net9.0\Semana-05-Listas.sourcelink.json
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS\Semana-05-Listas\obj\Debug\net9.0\Semana-05-Listas.dll
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS\Semana-05-Listas\obj\Debug\net9.0\refint\Semana-05-Listas.dll
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS\Semana-05-Listas\obj\Debug\net9.0\Semana-05-Listas.pdb
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS\Semana-05-Listas\obj\Debug\net9.0\Semana-05-Listas.genruntimeconfig.cache
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS\Semana-05-Listas\obj\Debug\net9.0\ref\Semana-05-Listas.dll

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Erosck\\Documents\\2425---ESTRUCTURA-DE-DATOS\\Semana-05-Listas\\Semana-05-Listas.csproj": {}
+    "C:\\Users\\Erosck\\Desktop\\2425---ESTRUCTURA-DE-DATOS\\Semana-05-Listas\\Semana-05-Listas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Erosck\\Documents\\2425---ESTRUCTURA-DE-DATOS\\Semana-05-Listas\\Semana-05-Listas.csproj": {
+    "C:\\Users\\Erosck\\Desktop\\2425---ESTRUCTURA-DE-DATOS\\Semana-05-Listas\\Semana-05-Listas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Erosck\\Documents\\2425---ESTRUCTURA-DE-DATOS\\Semana-05-Listas\\Semana-05-Listas.csproj",
+        "projectUniqueName": "C:\\Users\\Erosck\\Desktop\\2425---ESTRUCTURA-DE-DATOS\\Semana-05-Listas\\Semana-05-Listas.csproj",
         "projectName": "Semana-05-Listas",
-        "projectPath": "C:\\Users\\Erosck\\Documents\\2425---ESTRUCTURA-DE-DATOS\\Semana-05-Listas\\Semana-05-Listas.csproj",
+        "projectPath": "C:\\Users\\Erosck\\Desktop\\2425---ESTRUCTURA-DE-DATOS\\Semana-05-Listas\\Semana-05-Listas.csproj",
         "packagesPath": "C:\\Users\\Erosck\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Erosck\\Documents\\2425---ESTRUCTURA-DE-DATOS\\Semana-05-Listas\\obj\\",
+        "outputPath": "C:\\Users\\Erosck\\Desktop\\2425---ESTRUCTURA-DE-DATOS\\Semana-05-Listas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Erosck\\AppData\\Roaming\\NuGet\\NuGet.Config"
