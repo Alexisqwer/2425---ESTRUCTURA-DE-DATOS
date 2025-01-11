@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Erosck\\Desktop\\2425---ESTRUCTURA-DE-DATOS\\Semana-2\\Semana-2.csproj": {}
+    "C:\\Users\\Erosck\\Desktop\\2425---ESTRUCTURA-DE-DATOS\\Practico_Experimental\\Practico_Experimental.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Erosck\\Desktop\\2425---ESTRUCTURA-DE-DATOS\\Semana-2\\Semana-2.csproj": {
+    "C:\\Users\\Erosck\\Desktop\\2425---ESTRUCTURA-DE-DATOS\\Practico_Experimental\\Practico_Experimental.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Erosck\\Desktop\\2425---ESTRUCTURA-DE-DATOS\\Semana-2\\Semana-2.csproj",
-        "projectName": "Semana-2",
-        "projectPath": "C:\\Users\\Erosck\\Desktop\\2425---ESTRUCTURA-DE-DATOS\\Semana-2\\Semana-2.csproj",
+        "projectUniqueName": "C:\\Users\\Erosck\\Desktop\\2425---ESTRUCTURA-DE-DATOS\\Practico_Experimental\\Practico_Experimental.csproj",
+        "projectName": "Practico_Experimental",
+        "projectPath": "C:\\Users\\Erosck\\Desktop\\2425---ESTRUCTURA-DE-DATOS\\Practico_Experimental\\Practico_Experimental.csproj",
         "packagesPath": "C:\\Users\\Erosck\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Erosck\\Desktop\\2425---ESTRUCTURA-DE-DATOS\\Semana-2\\obj\\",
+        "outputPath": "C:\\Users\\Erosck\\Desktop\\2425---ESTRUCTURA-DE-DATOS\\Practico_Experimental\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Erosck\\AppData\\Roaming\\NuGet\\NuGet.Config"
