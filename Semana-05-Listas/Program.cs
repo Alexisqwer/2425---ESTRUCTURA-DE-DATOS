@@ -7,7 +7,7 @@ namespace Ejercicios
     {
         static void Main(string[] args)
         {
-            // Obtener las asignaturas a través del AsignaturasManager
+            // Obtener las asignaturas a través de la lista de Asignaturas
             List<Asignatura> asignaturas = Asignaturas.CrearAsignaturas();
 
             // Ejecutar los ejercicios uno por uno
