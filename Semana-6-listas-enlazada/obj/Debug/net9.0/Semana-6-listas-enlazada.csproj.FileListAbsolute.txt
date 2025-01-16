@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Semana-6-listas-enlazada\bin\Debug\net9.0\Semana-6-listas-enlazada.exe
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Semana-6-listas-enlazada\bin\Debug\net9.0\Semana-6-listas-enlazada.deps.json
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Semana-6-listas-enlazada\bin\Debug\net9.0\Semana-6-listas-enlazada.runtimeconfig.json
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Semana-6-listas-enlazada\bin\Debug\net9.0\Semana-6-listas-enlazada.dll
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Semana-6-listas-enlazada\bin\Debug\net9.0\Semana-6-listas-enlazada.pdb
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Semana-6-listas-enlazada\obj\Debug\net9.0\Semana-6-listas-enlazada.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Semana-6-listas-enlazada\obj\Debug\net9.0\Semana-6-listas-enlazada.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Semana-6-listas-enlazada\obj\Debug\net9.0\Semana-6-listas-enlazada.AssemblyInfo.cs
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Semana-6-listas-enlazada\obj\Debug\net9.0\Semana-6-listas-enlazada.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Semana-6-listas-enlazada\obj\Debug\net9.0\Semana-6-listas-enlazada.sourcelink.json
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Semana-6-listas-enlazada\obj\Debug\net9.0\Semana-6-listas-enlazada.dll
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Semana-6-listas-enlazada\obj\Debug\net9.0\refint\Semana-6-listas-enlazada.dll
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Semana-6-listas-enlazada\obj\Debug\net9.0\Semana-6-listas-enlazada.pdb
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Semana-6-listas-enlazada\obj\Debug\net9.0\Semana-6-listas-enlazada.genruntimeconfig.cache
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Semana-6-listas-enlazada\obj\Debug\net9.0\ref\Semana-6-listas-enlazada.dll

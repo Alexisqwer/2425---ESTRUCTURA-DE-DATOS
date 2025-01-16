@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Semana-6-listas-enlazada/1.0.0": {
+        "runtime": {
+          "Semana-6-listas-enlazada.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Semana-6-listas-enlazada/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

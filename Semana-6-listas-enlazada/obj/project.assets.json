@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\2425---ESTRUCTURA-DE-DATOS\\Semana-2\\Semana-2.csproj",
-      "projectName": "Semana-2",
-      "projectPath": "C:\\Users\\User\\Desktop\\2425---ESTRUCTURA-DE-DATOS\\Semana-2\\Semana-2.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\2425---ESTRUCTURA-DE-DATOS\\Semana-6-listas-enlazada\\Semana-6-listas-enlazada.csproj",
+      "projectName": "Semana-6-listas-enlazada",
+      "projectPath": "C:\\Users\\User\\Desktop\\2425---ESTRUCTURA-DE-DATOS\\Semana-6-listas-enlazada\\Semana-6-listas-enlazada.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\2425---ESTRUCTURA-DE-DATOS\\Semana-2\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\2425---ESTRUCTURA-DE-DATOS\\Semana-6-listas-enlazada\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
