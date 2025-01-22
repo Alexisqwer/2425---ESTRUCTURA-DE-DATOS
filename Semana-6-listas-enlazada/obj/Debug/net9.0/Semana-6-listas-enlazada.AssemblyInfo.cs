@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Semana-6-listas-enlazada")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65d5a19f5f6d814ed7fa59cf24f06d75ccc5930d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8801e6a730427bfea4af2b7644186a68eadd9700")]
 [assembly: System.Reflection.AssemblyProductAttribute("Semana-6-listas-enlazada")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Semana-6-listas-enlazada")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
