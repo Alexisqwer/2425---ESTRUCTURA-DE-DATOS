@@ -5,11 +5,10 @@ namespace Utilities
 {
     public static class BalanceChecker
     {
-        /// <summary>
+        
         /// Verifica si una expresión matemática está balanceada en términos de paréntesis, corchetes y llaves.
-        /// </summary>
-        /// <param name="expression">La expresión matemática a verificar.</param>
-        /// <returns>Verdadero si está balanceada, falso si no.</returns>
+        /// "expression"La expresión matemática a verificar.
+        //Verdadero si está balanceada, falso si no.
         public static bool IsBalanced(string expression)
         {
             Stack<char> stack = new Stack<char>();

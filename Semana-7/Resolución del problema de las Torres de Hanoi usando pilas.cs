@@ -24,13 +24,11 @@ namespace Utilities
 
     public static class HanoiSolver
     {
-        /// <summary>
         /// Resuelve el problema de las Torres de Hanoi de forma recursiva.
-        /// </summary>
-        /// <param name="n">Número de discos.</param>
-        /// <param name="source">Torre de origen.</param>
-        /// <param name="auxiliary">Torre auxiliar.</param>
-        /// <param name="destination">Torre de destino.</param>
+        /// "n"Número de discos.
+        /// "source"Torre de origen.
+        /// "auxiliary"Torre auxiliar.
+        /// "destination">Torre de destino.
         public static void Solve(int n, Tower source, Tower auxiliary, Tower destination)
         {
             if (n == 1)
