@@ -1,5 +1,3 @@
-using System;
-
 public class Historial
 {
     private List<Pagina> paginasVisitadas;
