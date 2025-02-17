@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\2425---ESTRUCTURA-DE-DATOS\\Practico_Experimental_2\\Practico_Experimental_2.csproj": {}
+    "C:\\Users\\Erosck\\Desktop\\2425---ESTRUCTURA-DE-DATOS-1\\Practico_Experimental_2\\Practico_Experimental_2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\2425---ESTRUCTURA-DE-DATOS\\Practico_Experimental_2\\Practico_Experimental_2.csproj": {
+    "C:\\Users\\Erosck\\Desktop\\2425---ESTRUCTURA-DE-DATOS-1\\Practico_Experimental_2\\Practico_Experimental_2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\2425---ESTRUCTURA-DE-DATOS\\Practico_Experimental_2\\Practico_Experimental_2.csproj",
+        "projectUniqueName": "C:\\Users\\Erosck\\Desktop\\2425---ESTRUCTURA-DE-DATOS-1\\Practico_Experimental_2\\Practico_Experimental_2.csproj",
         "projectName": "Practico_Experimental_2",
-        "projectPath": "C:\\Users\\User\\Desktop\\2425---ESTRUCTURA-DE-DATOS\\Practico_Experimental_2\\Practico_Experimental_2.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\2425---ESTRUCTURA-DE-DATOS\\Practico_Experimental_2\\obj\\",
+        "projectPath": "C:\\Users\\Erosck\\Desktop\\2425---ESTRUCTURA-DE-DATOS-1\\Practico_Experimental_2\\Practico_Experimental_2.csproj",
+        "packagesPath": "C:\\Users\\Erosck\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Erosck\\Desktop\\2425---ESTRUCTURA-DE-DATOS-1\\Practico_Experimental_2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Erosck\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
