@@ -1,5 +1,4 @@
-﻿//using System;
-//using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 
 class Program
@@ -112,13 +111,12 @@ class Program
         Console.WriteLine("\n--------------------------------");
         Console.WriteLine("Reporte Final de Vacunación");
         Console.WriteLine("--------------------------------");
+        Console.WriteLine("\n********************************************************");
         Console.WriteLine($"Total de ciudadanos vacunados con ambas vacunas: {vacunadosAmbas.Count}");
         Console.WriteLine($"Total de ciudadanos vacunados solo con Pfizer: {soloPfizer.Count}");
         Console.WriteLine($"Total de ciudadanos vacunados solo con AstraZeneca: {soloAstraZeneca.Count}");
         Console.WriteLine($"Total de ciudadanos no vacunados: {noVacunados.Count}");
         Console.WriteLine($"Total de ciudadanos vacunados (todas categorías): {totalVacunados}");
-
-        // Fin del proceso
-        Console.WriteLine("\nProceso completado.");
+        Console.WriteLine("*********************************************************");
     }
 }
