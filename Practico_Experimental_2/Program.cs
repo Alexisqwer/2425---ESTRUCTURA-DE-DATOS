@@ -27,3 +27,4 @@
         navegador.Avanzar(); // No hay más páginas hacia adelante.
     }
 }
+
