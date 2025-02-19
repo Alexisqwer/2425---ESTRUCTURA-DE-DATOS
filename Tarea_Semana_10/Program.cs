@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 class Program
@@ -16,107 +17,87 @@ class Program
         HashSet<string> vacunadosPfizer = new HashSet<string>();
         HashSet<string> vacunadosAstraZeneca = new HashSet<string>();
 
-        // Los primeros 78 ciudadanos están vacunados con Pfizer
-        for (int i = 1; i <= 78; i++)
+        // Los primeros 75 ciudadanos están vacunados con Pfizer (Ciudadano 1 a Ciudadano 75)
+        for (int i = 1; i <= 75; i++)
         {
             vacunadosPfizer.Add("Ciudadano " + i);
         }
 
-        // Los siguientes 70 ciudadanos están vacunados con AstraZeneca
-        for (int i = 81; i <= 150; i++)
+        // Para lograr la intersección, se asignamos a AstraZeneca 
+        // a ciudadanos con rango que se en cuentre en el rango de Pfizer,
+        // del 50 al 124.
+        for (int i = 50; i <= 124; i++)
         {
             vacunadosAstraZeneca.Add("Ciudadano " + i);
         }
-        // Los siguientes 50 ciudadanos están vacunados con las dos vacunas
-        for (int i = 151; i <= 200; i++)
-        {
-            vacunadosPfizer.Add("Ciudadano " + i);
-            vacunadosAstraZeneca.Add("Ciudadano " + i);
-        }
+       
+        // Operaciones de conjuntos:
 
-        // Obtener los distintos grupos de ciudadanos
+        // Ciudadanos no vacunados: aquellos que NO están en ningún conjunto de vacunados.
+        var noVacunados = ciudadanos.Except(vacunadosPfizer.Union(vacunadosAstraZeneca)).ToList();
 
-        // Ciudadanos no vacunados: Son aquellos que no están en ningún conjunto de vacunados.
-        var noVacunados = ciudadanos.Except(vacunadosPfizer.Concat(vacunadosAstraZeneca)).ToList();
+        // Ciudadanos vacunados con ambas vacunas: intersección de los conjuntos Pfizer y AstraZeneca.
+        HashSet<string> tempo = new HashSet<string>(vacunadosPfizer.Intersect(vacunadosAstraZeneca));
 
-        // Ciudadanos vacunados con ambas vacunas: Intersección de los conjuntos Pfizer y AstraZeneca.
-        var vacunadosAmbas = vacunadosPfizer.Intersect(vacunadosAstraZeneca).ToList();
-
-        // Ciudadanos vacunados solo con Pfizer: Aquellos que están en Pfizer pero no en AstraZeneca.
+        // Ciudadanos vacunados solo con Pfizer: los que están en Pfizer pero no en AstraZeneca.
         var soloPfizer = vacunadosPfizer.Except(vacunadosAstraZeneca).ToList();
 
-        // Ciudadanos vacunados solo con AstraZeneca: Aquellos que están en AstraZeneca pero no en Pfizer.
+        // Ciudadanos vacunados solo con AstraZeneca: los que están en AstraZeneca pero no en Pfizer.
         var soloAstraZeneca = vacunadosAstraZeneca.Except(vacunadosPfizer).ToList();
         
-        // Mostrar los ciudadanos no vacunados
-        Console.WriteLine("\n");
-        Console.WriteLine("Reporte de Vacunación");
+        // Reporte de vacunación:
+        Console.WriteLine("\nReporte de Vacunación");
         Console.WriteLine("--------------------------");
-        Console.WriteLine("Ciudadanos no vacunados: ");
-        Console.WriteLine("--------------------------");
+        
+        Console.WriteLine("Ciudadanos no vacunados (A - (B ∪ C)):");
         foreach (var ciudadano in noVacunados)
         {
-            Console.WriteLine(ciudadano); // Imprime cada ciudadano no vacunado
+            Console.WriteLine(ciudadano);
         }
         Console.WriteLine("**********************************");
         Console.WriteLine($"Total de ciudadanos no vacunados: {noVacunados.Count}");
-        Console.WriteLine("**********************************");
+        Console.WriteLine("**********************************\n");
 
-        // Mostrar los ciudadanos vacunados con ambas vacunas
-        Console.WriteLine("\n--------------------------------------");
-        Console.WriteLine("Ciudadanos vacunados con ambas vacunas: ");
-        Console.WriteLine("--------------------------------------");
-        foreach (var ciudadano in vacunadosAmbas)
+        Console.WriteLine("Ciudadanos vacunados con ambas vacunas (B ∩ C):");
+        foreach (var ciudadano in tempo)
         {
-            Console.WriteLine(ciudadano); // Imprime cada ciudadano vacunado con ambas vacunas
+            Console.WriteLine(ciudadano);
         }
-
-        // Muestra en consola debajo de cada lista de los ciudadanos cuantos se vacunaron con ambas vacunas
         Console.WriteLine("*************************************************");
-        Console.WriteLine($"Total de ciudadanos vacunados con ambas vacunas: {vacunadosAmbas.Count}");
-        Console.WriteLine("*************************************************");
+        Console.WriteLine($"Total de ciudadanos vacunados con ambas vacunas: {tempo.Count}");
+        Console.WriteLine("*************************************************\n");
 
-        // Mostrar los ciudadanos vacunados solo con Pfizer
-        Console.WriteLine("\n------------------------------------");
-        Console.WriteLine("Ciudadanos vacunados solo con Pfizer: ");
-        Console.WriteLine("------------------------------------");
+        Console.WriteLine("Ciudadanos vacunados solo con Pfizer (C - B):");
         foreach (var ciudadano in soloPfizer)
         {
-            Console.WriteLine(ciudadano); // Imprime cada ciudadano vacunado solo con Pfizer
+            Console.WriteLine(ciudadano);
         }
-
-        // Muestra en consola debajo de cada lista de los ciudadanos cuantos se vacunaron solo con Pfizer
         Console.WriteLine("***********************************************");
         Console.WriteLine($"Total de ciudadanos vacunados solo con Pfizer: {soloPfizer.Count}");
-        Console.WriteLine("***********************************************");
+        Console.WriteLine("***********************************************\n");
 
-        // Mostrar los ciudadanos vacunados solo con AstraZeneca
-        Console.WriteLine("\n-----------------------------------------");
-        Console.WriteLine("Ciudadanos vacunados solo con AstraZeneca: ");
-        Console.WriteLine("-----------------------------------------");
+        Console.WriteLine("Ciudadanos vacunados solo con AstraZeneca (B - C):");
         foreach (var ciudadano in soloAstraZeneca)
         {
-            Console.WriteLine(ciudadano); // Imprime cada ciudadano vacunado solo con AstraZeneca
+            Console.WriteLine(ciudadano);
         }
-
-        // Muestra en consola debajo de cada lista de los ciudadanos cuantos se vacunaron solo con AstraZeneca
         Console.WriteLine("****************************************************");
         Console.WriteLine($"Total de ciudadanos vacunados solo con AstraZeneca: {soloAstraZeneca.Count}");
-        Console.WriteLine("****************************************************");
+        Console.WriteLine("****************************************************\n");
 
         // Calcular el total de ciudadanos vacunados (suma de los distintos grupos)
-        int totalVacunados = vacunadosAmbas.Count + soloPfizer.Count + soloAstraZeneca.Count;
+        int totalVacunados = tempo.Count + soloPfizer.Count + soloAstraZeneca.Count;
 
-        // Mostrar el total de vacunados en un reporte final
-        Console.WriteLine("\n--------------------------------");
-        Console.WriteLine("Reporte Final de Vacunación");
+        // Reporte final de vacunación
         Console.WriteLine("--------------------------------");
-        Console.WriteLine("\n********************************************************");
-        Console.WriteLine($"Total de ciudadanos vacunados con ambas vacunas: {vacunadosAmbas.Count}");
+        Console.WriteLine("Reporte Final de Vacunación");
+        Console.WriteLine("--------------------------------\n");
+        Console.WriteLine("********************************************************");
+        Console.WriteLine($"Total de ciudadanos vacunados con ambas vacunas: {tempo.Count}");
         Console.WriteLine($"Total de ciudadanos vacunados solo con Pfizer: {soloPfizer.Count}");
         Console.WriteLine($"Total de ciudadanos vacunados solo con AstraZeneca: {soloAstraZeneca.Count}");
         Console.WriteLine($"Total de ciudadanos no vacunados: {noVacunados.Count}");
         Console.WriteLine($"Total de ciudadanos vacunados (todas categorías): {totalVacunados}");
-        Console.WriteLine("*********************************************************");
+        Console.WriteLine("********************************************************");
     }
 }
