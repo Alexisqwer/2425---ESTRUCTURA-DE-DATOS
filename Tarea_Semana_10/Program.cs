@@ -50,6 +50,7 @@ class Program
         Console.WriteLine("--------------------------");
         
         Console.WriteLine("Ciudadanos no vacunados (A - (B ∪ C)):");
+        Console.WriteLine("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<");
         foreach (var ciudadano in noVacunados)
         {
             Console.WriteLine(ciudadano);
@@ -59,6 +60,7 @@ class Program
         Console.WriteLine("**********************************\n");
 
         Console.WriteLine("Ciudadanos vacunados con ambas vacunas (B ∩ C):");
+        Console.WriteLine("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<");
         foreach (var ciudadano in tempo)
         {
             Console.WriteLine(ciudadano);
@@ -68,6 +70,7 @@ class Program
         Console.WriteLine("*************************************************\n");
 
         Console.WriteLine("Ciudadanos vacunados solo con Pfizer (C - B):");
+        Console.WriteLine("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<");
         foreach (var ciudadano in soloPfizer)
         {
             Console.WriteLine(ciudadano);
@@ -77,6 +80,7 @@ class Program
         Console.WriteLine("***********************************************\n");
 
         Console.WriteLine("Ciudadanos vacunados solo con AstraZeneca (B - C):");
+        Console.WriteLine("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<");
         foreach (var ciudadano in soloAstraZeneca)
         {
             Console.WriteLine(ciudadano);
