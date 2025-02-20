@@ -13,7 +13,7 @@ class Program
             ciudadanos.Add("Ciudadano " + i); // "Ciudadano 1" hasta "Ciudadano 500"
         }
 
-        // Crear un generador de números aleatorios
+        // Se utiliza un objeto Random para seleccionar alos ciudadanos aleatorios
         Random rand = new Random();
 
         // Crea un conjunto de 75 ciudadanos aleatorios para Pfizer
