@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Tarea_Semana_11\obj\Debug\net9.0\Tarea_Semana_11.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Tarea_Semana_11\obj\Debug\net9.0\Tarea_Semana_11.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Tarea_Semana_11\obj\Debug\net9.0\Tarea_Semana_11.AssemblyInfo.cs
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Tarea_Semana_11\obj\Debug\net9.0\Tarea_Semana_11.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Tarea_Semana_11\obj\Debug\net9.0\Tarea_Semana_11.sourcelink.json
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Tarea_Semana_11\bin\Debug\net9.0\Tarea_Semana_11.exe
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Tarea_Semana_11\bin\Debug\net9.0\Tarea_Semana_11.deps.json
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Tarea_Semana_11\bin\Debug\net9.0\Tarea_Semana_11.runtimeconfig.json
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Tarea_Semana_11\bin\Debug\net9.0\Tarea_Semana_11.dll
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Tarea_Semana_11\bin\Debug\net9.0\Tarea_Semana_11.pdb
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Tarea_Semana_11\obj\Debug\net9.0\Tarea_Semana_11.dll
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Tarea_Semana_11\obj\Debug\net9.0\refint\Tarea_Semana_11.dll
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Tarea_Semana_11\obj\Debug\net9.0\Tarea_Semana_11.pdb
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Tarea_Semana_11\obj\Debug\net9.0\Tarea_Semana_11.genruntimeconfig.cache
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Tarea_Semana_11\obj\Debug\net9.0\ref\Tarea_Semana_11.dll
