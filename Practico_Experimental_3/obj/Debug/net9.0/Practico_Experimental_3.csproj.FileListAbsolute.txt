@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Practico_Experimental_3\bin\Debug\net9.0\Practico_Experimental_3.exe
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Practico_Experimental_3\bin\Debug\net9.0\Practico_Experimental_3.deps.json
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Practico_Experimental_3\bin\Debug\net9.0\Practico_Experimental_3.runtimeconfig.json
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Practico_Experimental_3\bin\Debug\net9.0\Practico_Experimental_3.dll
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Practico_Experimental_3\bin\Debug\net9.0\Practico_Experimental_3.pdb
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Practico_Experimental_3\obj\Debug\net9.0\Practico_Experimental_3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Practico_Experimental_3\obj\Debug\net9.0\Practico_Experimental_3.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Practico_Experimental_3\obj\Debug\net9.0\Practico_Experimental_3.AssemblyInfo.cs
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Practico_Experimental_3\obj\Debug\net9.0\Practico_Experimental_3.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Practico_Experimental_3\obj\Debug\net9.0\Practico_Experimental_3.sourcelink.json
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Practico_Experimental_3\obj\Debug\net9.0\Practico_Experimental_3.dll
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Practico_Experimental_3\obj\Debug\net9.0\refint\Practico_Experimental_3.dll
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Practico_Experimental_3\obj\Debug\net9.0\Practico_Experimental_3.pdb
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Practico_Experimental_3\obj\Debug\net9.0\Practico_Experimental_3.genruntimeconfig.cache
+C:\Users\User\Desktop\2425---ESTRUCTURA-DE-DATOS\Practico_Experimental_3\obj\Debug\net9.0\ref\Practico_Experimental_3.dll
