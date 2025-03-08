@@ -112,7 +112,7 @@ class Traductor
             else
             {
                 // Si no existe en el diccionario, indicamos que no está en el diccionario
-                fraseTraducida += $"La palabra '{palabra}' no existe en el diccionario"; // Mensaje de error
+                fraseTraducida += $"La palabra '{palabra}' no existe en el diccionario"; // Muestra el mensaje cuando la palabra no existe
                 hayTraduccion = true; // Al menos se ha encontrado una palabra que no existe
             }
         }
