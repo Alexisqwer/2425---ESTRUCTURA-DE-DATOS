@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Erosck\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Erosck\\Desktop\\2425---ESTRUCTURA-DE-DATOS-1\\Tarea_Semana_10\\Tarea_Semana_10.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\2425---ESTRUCTURA-DE-DATOS\\Tarea_Semana_10\\Tarea_Semana_10.csproj",
       "projectName": "Tarea_Semana_10",
-      "projectPath": "C:\\Users\\Erosck\\Desktop\\2425---ESTRUCTURA-DE-DATOS-1\\Tarea_Semana_10\\Tarea_Semana_10.csproj",
-      "packagesPath": "C:\\Users\\Erosck\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Erosck\\Desktop\\2425---ESTRUCTURA-DE-DATOS-1\\Tarea_Semana_10\\obj\\",
+      "projectPath": "C:\\Users\\User\\Desktop\\2425---ESTRUCTURA-DE-DATOS\\Tarea_Semana_10\\Tarea_Semana_10.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\2425---ESTRUCTURA-DE-DATOS\\Tarea_Semana_10\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Erosck\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

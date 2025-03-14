@@ -14,4 +14,3 @@ class Program
         Console.WriteLine($"Perímetro del rectángulo: {rectangulo.CalcularPerimetro()}"); // Ejemplo de cálculo del perímetro
     }
 }
-
