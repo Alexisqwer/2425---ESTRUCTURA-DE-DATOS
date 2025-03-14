@@ -1,100 +1,127 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 
-class Program
+class Traductor
 {
-    static void Main()
+    // Diccionario con las palabras base
+    static Dictionary<string, string> diccionario = new Dictionary<string, string>()
     {
-        // Paso 1: Crear una lista de 500 ciudadanos ficticios
-        HashSet<string> ciudadanos = new HashSet<string>();
-        for (int i = 1; i <= 500; i++)
+        { "tiempo", "time" },
+        { "persona", "person" },
+        { "año", "year" },
+        { "camino", "way" },
+        { "forma", "way" },
+        { "día", "day" },
+        { "cosa", "thing" },
+        { "hombre", "man" },
+        { "mundo", "world" },
+        { "vida", "life" },
+        { "mano", "hand" },
+        { "parte", "part" },
+        { "niño", "child" },
+        { "ojo", "eye" },
+        { "mujer", "woman" },
+        { "lugar", "place" },
+        { "trabajo", "work" },
+        { "semana", "week" },
+        { "caso", "case" },
+        { "punto", "point" },
+        { "tema", "point" },
+        { "gobierno", "government" },
+        { "empresa", "company" },
+        { "compañía", "company" }
+    };
+
+    static void Main(string[] args)
+    {
+        bool continuar = true;
+
+        while (continuar)
         {
-            ciudadanos.Add("Ciudadano " + i); // "Ciudadano 1", "Ciudadano 2", ..., "Ciudadano 500"
+            Console.Clear();
+            MostrarMenu();
+            int opcion = ObtenerOpcion();
+
+            switch (opcion)
+            {
+                case 1:
+                    TraducirFrase();
+                    break;
+                case 2:
+                    AgregarPalabra();
+                    break;
+                case 0:
+                    continuar = false;
+                    break;
+                default:
+                    Console.WriteLine("Opción no válida. Por favor, elija una opción válida.");
+                    break;
+            }
+        }
+    }
+
+    static void MostrarMenu()
+    {
+        Console.WriteLine("MENU");
+        Console.WriteLine("=======================================================");
+        Console.WriteLine("1. Traducir una frase");
+        Console.WriteLine("2. Ingresar más palabras al diccionario");
+        Console.WriteLine("0. Salir");
+        Console.Write("Seleccione una opción: ");
+    }
+
+    static int ObtenerOpcion()
+    {
+        int opcion;
+        while (!int.TryParse(Console.ReadLine(), out opcion) || opcion < 0 || opcion > 2)
+        {
+            Console.Write("Opción no válida. Por favor, seleccione una opción: ");
+        }
+        return opcion;
+    }
+
+    static void TraducirFrase()
+    {
+        Console.Write("Ingrese la frase: ");
+        string frase = Console.ReadLine();
+        string[] palabras = frase.Split(new char[] { ' ', ',', '.', ';', ':', '?' }, StringSplitOptions.RemoveEmptyEntries);
+        string fraseTraducida = "";
+
+        foreach (var palabra in palabras)
+        {
+            if (diccionario.ContainsKey(palabra.ToLower()))
+            {
+                fraseTraducida += diccionario[palabra.ToLower()] + " ";
+            }
+            else
+            {
+                fraseTraducida += palabra + " ";
+            }
         }
 
-        // Paso 2: Crear listas de vacunados con Pfizer y AstraZeneca
-        HashSet<string> vacunadosPfizer = new HashSet<string>();
-        HashSet<string> vacunadosAstraZeneca = new HashSet<string>();
+        Console.WriteLine("Su frase traducida es: " + fraseTraducida.Trim());
+        Console.WriteLine("Presione cualquier tecla para continuar...");
+        Console.ReadKey();
+    }
 
-        // Los primeros 75 ciudadanos están vacunados con Pfizer
-        for (int i = 1; i <= 75; i++)
+    static void AgregarPalabra()
+    {
+        Console.Write("Ingrese la palabra en español: ");
+        string espanol = Console.ReadLine().ToLower();
+
+        if (diccionario.ContainsKey(espanol))
         {
-            vacunadosPfizer.Add("Ciudadano " + i);
+            Console.WriteLine("La palabra ya existe en el diccionario.");
+        }
+        else
+        {
+            Console.Write("Ingrese la traducción en inglés: ");
+            string ingles = Console.ReadLine().ToLower();
+            diccionario.Add(espanol, ingles);
+            Console.WriteLine("Palabra agregada correctamente.");
         }
 
-        // Los siguientes 75 ciudadanos están vacunados con AstraZeneca
-        for (int i = 76; i <= 150; i++)
-        {
-            vacunadosAstraZeneca.Add("Ciudadano " + i);
-        }
-
-        // Paso 3: Obtener los distintos grupos de ciudadanos
-
-        // Ciudadanos no vacunados: Son aquellos que no están en ningún conjunto de vacunados.
-        var noVacunados = ciudadanos.Except(vacunadosPfizer.Concat(vacunadosAstraZeneca)).ToList();
-
-        // Ciudadanos vacunados con ambas vacunas: Intersección de los conjuntos Pfizer y AstraZeneca.
-        var vacunadosAmbas = vacunadosPfizer.Intersect(vacunadosAstraZeneca).ToList();
-
-        // Ciudadanos vacunados solo con Pfizer: Aquellos que están en Pfizer pero no en AstraZeneca.
-        var soloPfizer = vacunadosPfizer.Except(vacunadosAstraZeneca).ToList();
-
-        // Ciudadanos vacunados solo con AstraZeneca: Aquellos que están en AstraZeneca pero no en Pfizer.
-        var soloAstraZeneca = vacunadosAstraZeneca.Except(vacunadosPfizer).ToList();
-
-        // Paso 4: Mostrar los resultados en consola
-
-        // Mostrar los ciudadanos no vacunados
-        Console.WriteLine("** Reporte de Vacunación **\n");
-        Console.WriteLine("Ciudadanos no vacunados: ");
-        Console.WriteLine("--------------------------");
-        foreach (var ciudadano in noVacunados)
-        {
-            Console.WriteLine(ciudadano); // Imprime cada ciudadano no vacunado
-        }
-        Console.WriteLine($"Total de ciudadanos no vacunados: {noVacunados.Count}");
-
-        // Mostrar los ciudadanos vacunados con ambas vacunas
-        Console.WriteLine("\nCiudadanos vacunados con ambas vacunas: ");
-        Console.WriteLine("--------------------------------------");
-        foreach (var ciudadano in vacunadosAmbas)
-        {
-            Console.WriteLine(ciudadano); // Imprime cada ciudadano vacunado con ambas vacunas
-        }
-        Console.WriteLine($"Total de ciudadanos vacunados con ambas vacunas: {vacunadosAmbas.Count}");
-
-        // Mostrar los ciudadanos vacunados solo con Pfizer
-        Console.WriteLine("\nCiudadanos vacunados solo con Pfizer: ");
-        Console.WriteLine("------------------------------------");
-        foreach (var ciudadano in soloPfizer)
-        {
-            Console.WriteLine(ciudadano); // Imprime cada ciudadano vacunado solo con Pfizer
-        }
-        Console.WriteLine($"Total de ciudadanos vacunados solo con Pfizer: {soloPfizer.Count}");
-
-        // Mostrar los ciudadanos vacunados solo con AstraZeneca
-        Console.WriteLine("\nCiudadanos vacunados solo con AstraZeneca: ");
-        Console.WriteLine("-----------------------------------------");
-        foreach (var ciudadano in soloAstraZeneca)
-        {
-            Console.WriteLine(ciudadano); // Imprime cada ciudadano vacunado solo con AstraZeneca
-        }
-        Console.WriteLine($"Total de ciudadanos vacunados solo con AstraZeneca: {soloAstraZeneca.Count}");
-
-        // Calcular el total de ciudadanos vacunados (suma de los distintos grupos)
-        int totalVacunados = vacunadosAmbas.Count + soloPfizer.Count + soloAstraZeneca.Count;
-
-        // Mostrar el total de vacunados
-        Console.WriteLine("\n** Resumen Final del Reporte **");
-        Console.WriteLine("--------------------------------");
-        Console.WriteLine($"Total de ciudadanos vacunados con ambas vacunas: {vacunadosAmbas.Count}");
-        Console.WriteLine($"Total de ciudadanos vacunados solo con Pfizer: {soloPfizer.Count}");
-        Console.WriteLine($"Total de ciudadanos vacunados solo con AstraZeneca: {soloAstraZeneca.Count}");
-        Console.WriteLine($"Total de ciudadanos no vacunados: {noVacunados.Count}");
-        Console.WriteLine($"Total de ciudadanos vacunados (todas categorías): {totalVacunados}");
-
-        // Paso 5: Fin del proceso
-        Console.WriteLine("\nProceso completado.");
+        Console.WriteLine("Presione cualquier tecla para continuar...");
+        Console.ReadKey();
     }
 }

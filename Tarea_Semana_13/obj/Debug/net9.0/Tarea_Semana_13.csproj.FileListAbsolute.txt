@@ -1,0 +1,15 @@
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS-1\Tarea_Semana_13\bin\Debug\net9.0\Tarea_Semana_13.exe
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS-1\Tarea_Semana_13\bin\Debug\net9.0\Tarea_Semana_13.deps.json
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS-1\Tarea_Semana_13\bin\Debug\net9.0\Tarea_Semana_13.runtimeconfig.json
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS-1\Tarea_Semana_13\bin\Debug\net9.0\Tarea_Semana_13.dll
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS-1\Tarea_Semana_13\bin\Debug\net9.0\Tarea_Semana_13.pdb
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS-1\Tarea_Semana_13\obj\Debug\net9.0\Tarea_Semana_13.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS-1\Tarea_Semana_13\obj\Debug\net9.0\Tarea_Semana_13.AssemblyInfoInputs.cache
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS-1\Tarea_Semana_13\obj\Debug\net9.0\Tarea_Semana_13.AssemblyInfo.cs
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS-1\Tarea_Semana_13\obj\Debug\net9.0\Tarea_Semana_13.csproj.CoreCompileInputs.cache
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS-1\Tarea_Semana_13\obj\Debug\net9.0\Tarea_Semana_13.sourcelink.json
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS-1\Tarea_Semana_13\obj\Debug\net9.0\Tarea_Semana_13.dll
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS-1\Tarea_Semana_13\obj\Debug\net9.0\refint\Tarea_Semana_13.dll
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS-1\Tarea_Semana_13\obj\Debug\net9.0\Tarea_Semana_13.pdb
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS-1\Tarea_Semana_13\obj\Debug\net9.0\Tarea_Semana_13.genruntimeconfig.cache
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS-1\Tarea_Semana_13\obj\Debug\net9.0\ref\Tarea_Semana_13.dll
