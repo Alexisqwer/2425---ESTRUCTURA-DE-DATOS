@@ -6,16 +6,16 @@ class Programa
     // Lista que representa el catálogo de revistas
     static List<string> catalogo = new List<string>
     {
-        "El Mundo",               // Periódico de España
-        "Revista 5W",             // Revista de periodismo narrativo
-        "Cultura Colectiva",      // Revista digital sobre cultura y arte
-        "Le Monde Diplomatique",  // Revista de análisis político y social
-        "Matador",                // Revista de cultura y literatura
-        "Revista 15M",            // Revista digital sobre movimientos sociales
-        "The Objective",          // Revista de análisis político y actualidades
-        "Xataka",                 // Revista digital de tecnología
-        "Letras Libres",          // Revista de cultura, literatura y política
-        "Jot Down",               // Revista cultural y de entretenimiento
+        "El Mundo",
+        "Revista 5W",
+        "Cultura Colectiva",
+        "Memorias",
+        "Matador",
+        "Revista 15M",
+        "Abanico veterinario",
+        "Xataka",
+        "Letras Libres",
+        "Jot Down",
     };
 
     static void Main(string[] args)
