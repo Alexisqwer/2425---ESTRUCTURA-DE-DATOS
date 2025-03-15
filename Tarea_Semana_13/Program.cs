@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-
-class Programa
+﻿class Program
 {
-    // Lista que representa el catálogo de revistas
-    static List<string> catalogo = new List<string>
+    static void Main(string[] args)
     {
+        ArbolBinario catalogo = new ArbolBinario();
+        string[] titulos = {
         "El Mundo",
         "Revista 5W",
         "Cultura Colectiva",
@@ -16,61 +14,46 @@ class Programa
         "Xataka",
         "Letras Libres",
         "Jot Down",
-    };
+        };
 
-    static void Main(string[] args)
-    {
-        bool salir = false;
-
-        // Menú para interactuar con el programa
-        while (!salir)
+        // Agregar títulos al catálogo
+        foreach (var titulo in titulos)
         {
-            MostrarMenu(); // Mostrar las opciones
+            catalogo.Agregar(titulo);
+        }
+
+        // Menú de búsqueda
+        while (true)
+        {
+            Console.WriteLine("\n--- Catálogo de Revistas ---");
+            Console.WriteLine("1. Buscar un título");
+            Console.WriteLine("2. Salir");
+            Console.Write("Seleccione una opción: ");
             string opcion = Console.ReadLine();
 
-            switch (opcion)
+            if (opcion == "1")
             {
-                case "1":
-                    BuscarTitulo(); // Llamar al método de búsqueda
-                    break;
-                case "2":
-                    salir = true; // Salir del programa
-                    break;
-                default:
-                    Console.WriteLine("Opción no válida.");
-                    break;
+                Console.WriteLine("Ingrese el título de la revista que desea buscar:");
+                string tituloABuscar = Console.ReadLine();
+
+                if (catalogo.Buscar(tituloABuscar))
+                {
+                    Console.WriteLine("Encontrado");
+                }
+                else
+                {
+                    Console.WriteLine("No encontrado");
+                }
+            }
+            else if (opcion == "2")
+            {
+                Console.WriteLine("Saliendo del programa...");
+                break;
+            }
+            else
+            {
+                Console.WriteLine("Opción no válida. Intente de nuevo.");
             }
         }
-    }
-
-    // Método que muestra las opciones del menú
-    static void MostrarMenu()
-    {
-        Console.WriteLine("\n--- Menú ---");
-        Console.WriteLine("1. Buscar título de revista");
-        Console.WriteLine("2. Salir");
-        Console.Write("Seleccione una opción: ");
-    }
-
-    // Método para buscar un título de revista en el catálogo
-    static void BuscarTitulo()
-    {
-        Console.Write("Ingrese el título de la revista a buscar: ");
-        string titulo = Console.ReadLine();
-        bool encontrado = BusquedaRecursiva(catalogo, titulo); // Llamar a la búsqueda recursiva
-        Console.WriteLine(encontrado ? "Título encontrado." : "Título no encontrado.");
-    }
-
-    // Método de búsqueda recursiva
-    static bool BusquedaRecursiva(List<string> catalogo, string titulo, int indice = 0)
-    {
-        // Si llegamos al final de la lista y no encontramos el título
-        if (indice >= catalogo.Count) return false;
-
-        // Si encontramos el título
-        if (string.Equals(catalogo[indice], titulo, StringComparison.OrdinalIgnoreCase)) return true;
-
-        // Llamada recursiva a la siguiente revista en el catálogo
-        return BusquedaRecursiva(catalogo, titulo, indice + 1);
     }
 }
