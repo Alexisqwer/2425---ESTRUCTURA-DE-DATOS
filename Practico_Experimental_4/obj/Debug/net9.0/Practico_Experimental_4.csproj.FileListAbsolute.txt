@@ -1,0 +1,15 @@
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS-1\Practico_Experimental_4\bin\Debug\net9.0\Practico_Experimental_4.exe
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS-1\Practico_Experimental_4\bin\Debug\net9.0\Practico_Experimental_4.deps.json
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS-1\Practico_Experimental_4\bin\Debug\net9.0\Practico_Experimental_4.runtimeconfig.json
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS-1\Practico_Experimental_4\bin\Debug\net9.0\Practico_Experimental_4.dll
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS-1\Practico_Experimental_4\bin\Debug\net9.0\Practico_Experimental_4.pdb
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS-1\Practico_Experimental_4\obj\Debug\net9.0\Practico_Experimental_4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS-1\Practico_Experimental_4\obj\Debug\net9.0\Practico_Experimental_4.AssemblyInfoInputs.cache
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS-1\Practico_Experimental_4\obj\Debug\net9.0\Practico_Experimental_4.AssemblyInfo.cs
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS-1\Practico_Experimental_4\obj\Debug\net9.0\Practico_Experimental_4.csproj.CoreCompileInputs.cache
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS-1\Practico_Experimental_4\obj\Debug\net9.0\Practico_Experimental_4.sourcelink.json
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS-1\Practico_Experimental_4\obj\Debug\net9.0\Practico_Experimental_4.dll
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS-1\Practico_Experimental_4\obj\Debug\net9.0\refint\Practico_Experimental_4.dll
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS-1\Practico_Experimental_4\obj\Debug\net9.0\Practico_Experimental_4.pdb
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS-1\Practico_Experimental_4\obj\Debug\net9.0\Practico_Experimental_4.genruntimeconfig.cache
+C:\Users\Erosck\Desktop\2425---ESTRUCTURA-DE-DATOS-1\Practico_Experimental_4\obj\Debug\net9.0\ref\Practico_Experimental_4.dll
